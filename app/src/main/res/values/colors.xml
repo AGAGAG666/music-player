@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#EC414D</color>
+    <color name="primary_dark">#D63A42</color>
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F5F5F5</color>
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#999999</color>
+    <color name="text_hint">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="mini_player_bg">#F8F8F8</color>
+    <color name="overlay_light">#66000000</color>
+</resources>
