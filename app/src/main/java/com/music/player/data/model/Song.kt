@@ -5,8 +5,8 @@ import com.google.gson.annotations.SerializedName
 data class Song(
     @SerializedName("id") val id: Long,
     @SerializedName("name") val name: String,
-    @SerializedName("ar", "artists") val artists: List<Artist>,
-    @SerializedName("al", "album") val album: Album,
+    @SerializedName(value = "ar", alternate = ["artists"]) val artists: List<Artist>,
+    @SerializedName(value = "al", alternate = ["album"]) val album: Album,
     @SerializedName("dt") val duration: Long
 ) {
     val artistNames: String
